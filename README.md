@@ -1,1 +1,3 @@
-# satationfive
+yarn install
+
+yarn start
