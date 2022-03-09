@@ -24,6 +24,7 @@ const Index = () => {
 
   const onSubmitButton = (data) => {
     console.log('data ->', data);
+    alert('form submit');
     dispatch(postGroup(data));
   };
   const handleChangeDish = async (data) => {
